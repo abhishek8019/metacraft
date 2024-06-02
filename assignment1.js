@@ -1,4 +1,3 @@
-
 const NFTs = [];
 
 function mintNFT(_name, _eyeColor, _shirtType, _bling) {
@@ -26,10 +25,10 @@ function getTotalSupply() {
   console.log("\n" + NFTs.length);
 }
 
-mintNFT("Bob", "Blue", "Hoodie", "Gold Chain");
-mintNFT("Sue", "Blue", "Hoodie", "Gold Chain");
-mintNFT("Tim", "Blue", "Hoodie", "Gold Chain");
-mintNFT("Jogn", "Blue", "Hoodie", "Gold Chain");
+mintNFT("Abhishek", "Black", "Shirt", "Gold Bracelet");
+mintNFT("Himanshu", "Black", "T-Shirt", "Platinum Bracelet");
+mintNFT("Shrey", "Red", "Blazer", "Silver bracelet");
+mintNFT("Kaustubh", "Red", "Cardigen", "Gold Bracelet");
 
 listNFTs();
 getTotalSupply();
